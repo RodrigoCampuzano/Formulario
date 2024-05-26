@@ -17,16 +17,6 @@ class LinkedList{
             current.next = node;
           }
         }
-      
-        toArray() {
-          const result = [];
-          let current = this.head;
-          while (current) {
-            result.push(current.data);
-            current = current.next;
-          }
-          return result;
-        }
 }
       
 export default LinkedList;
